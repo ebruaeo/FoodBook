@@ -1,4 +1,4 @@
-package com.example.foodbook
+package com.example.foodbook.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,8 @@ import com.example.foodbook.databinding.FragmentFoodListBinding
 
 
 class FoodListFragment : Fragment() {
+
+    //https://raw.githubusercontent.com/atilsamancioglu/BTK20-JSONVeriSeti/master/besinler.json
 
     private var _binding: FragmentFoodListBinding? = null
     private val binding get() = _binding!!

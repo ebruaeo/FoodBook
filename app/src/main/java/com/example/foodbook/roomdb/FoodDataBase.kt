@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.foodbook.model.Food
 
-@Database(entities = [Food::class], version = 1)
+@Database(entities = arrayOf(Food::class), version = 1)
 abstract class FoodDataBase : RoomDatabase() {
     abstract fun foodDao(): FoodDao
 
